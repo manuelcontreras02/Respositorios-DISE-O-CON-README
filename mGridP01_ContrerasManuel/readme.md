@@ -3,7 +3,7 @@
 ## Descripción
 
     El proyecto es una tarea elaborada con css, con la implementacion de 
-    **GRID** el cual nos permite colocar los elementos dentro de una seccion de manera mas ordenada y profesional
+   **GRID** el cual nos permite colocar los elementos dentro de una seccion de manera mas ordenada y profesional
 
 ## Contenido
 
