@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+    background-color: darkgray;
+}
+
+/*HEADER ------------------------------------------------------------------------------------------------ */
+
+header {
+    text-align: center;
+    width: 100%;
+    color: rgb(1, 56, 1);
+}
+
+#sub {
+    color: rgb(55, 138, 110);
+}
+
+/*MAIN ------------------------------------------------------------------------------------------------ */
+
+/*Debemos indicar en el main la cantidad de columnas y de filas que vamos a usar */
+main {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 50% 50%;
+
+}
+
+
+/*NAV ------------------------------------------------------------------------------------------------ */
+
+/*Y a cada uno de los elementos utilizados debemos indicar las columnas y las filas que va a usar*/
+nav {
+    margin-top: 5%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+li {
+    list-style: none;
+}
+
+/*MAIN ------------------------------------------------------------------------------------------------ */
+
+#caja1 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 95%;
+    height: 100%;
+    border-radius: 5%;
+    border: solid rgb(93, 93, 93);
+    padding: 1%;
+    padding-bottom: 3.5%;
+}
+
+#i1 {
+    margin: auto;
+    border-radius: 10%;
+    width: 100%;
+    height: 85%;
+}
+
+#caja2 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+    border: solid rgb(93, 93, 93);
+    align-items: center;
+    padding: 1%;
+}
+
+#i2 {
+    height: 80%;
+    width: 95%;
+    margin: 3%;
+    border-radius: 5%;
+}
+
+.txt {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/*SEGUNDA FILA DEL MAIN -------------------------------------------------------------------------------------- */
+
+#caja3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 4%;
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+    border: solid rgb(93, 93, 93);
+    padding: 1%;
+}
+
+#caja4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top: 4%;
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+    border: solid rgb(93, 93, 93);
+    padding: 1%;
+}
+
+#caja5 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-top: 4%;
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+    border: solid rgb(93, 93, 93);
+    padding: 1%;
+}
+
+/*Como todas las imagenes de la segunda fila tienen las mismas caracteristicas le damos una clase  */
+
+.img2 {
+    height: 80%;
+    width: 95%;
+    margin: 3%;
+    border-radius: 5%;
+}
+
+/*FOOTER ------------------------------------------------------------------------------------------------ */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+hr {
+    grid-column: 1/5;
+    margin-bottom: 2%;
+}
+
+#Perros {
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+#foot {
+    grid-column: 2/3;
+    color: rgb(55, 138, 110);
+    justify-self: center;
+}
+
+#logos {
+    grid-column: 3/4;
+    justify-self: flex-end;
+}
+
+#logo {
+    height: 50px;
+    width: 250px;
+}
