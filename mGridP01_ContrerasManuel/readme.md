@@ -45,4 +45,4 @@ gnu/gpl
 
 ## Adicional
 
-### [Enlace a github](https://github.com/manuelcontreras02/Respositorio-con-GRID/blob/main/mGridP01_ContrerasManuel)
+### [Enlace a github](https://github.com/manuelcontreras02/Respositorios-DISE-O-CON-README)
