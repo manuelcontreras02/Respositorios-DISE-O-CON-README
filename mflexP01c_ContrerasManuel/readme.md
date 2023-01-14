@@ -2,7 +2,7 @@
 
 ## Descripción
 
-    El proyecto es una tarea elaborada con css, con la implementacion de *
+   El proyecto es una tarea elaborada con css, con la implementacion de 
     **FLEX** el cual nos permite colocar los elementos dentro de una seccion de manera mas ordenada y profesional
 
 ## Contenido
